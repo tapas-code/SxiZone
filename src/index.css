@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.list--font{
+    font-size: 1rem;
+}
+.sub--menu li a{
+    font-size: 0.8rem;
+    text-wrap: nowrap;
+}
+.hero--img{
+    width: 60%;
+    aspect-ratio: 2/3;
+    background-size: 100% 100%;
+    border-radius: 1rem;
+}
+
+.add--icon{
+    color: rgb(0, 88, 0);
+    font-size: 1.5rem;
+    transition: rotate 300ms ease-in;
+}
+.add--icon:hover{
+    rotate: 45deg;
+}
+.btn--hover:hover .add--icon{
+    rotate: 45deg;
+}
+
+::-webkit-scrollbar-track{
+    width: 0px;
+}
+
+.outlet--container{
+    overflow-y: scroll;
+}
